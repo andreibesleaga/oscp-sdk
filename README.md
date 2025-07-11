@@ -1,2 +1,2 @@
-# oscp-mcp-server
-OSCP MCP Server - AI MCP Server Implementation for EV Charging - Open Smart Charging Protocol
+# oscp-sdk
+OSCP SDK & AI MCP Server Implementation for EV Charging - Open Smart Charging Protocol - based on OpenAPI schema
