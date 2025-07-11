@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/oscp-typescript.git
-cd oscp-typescript
+git clone git@github.com:andreibesleaga/oscp-sdk.git
+cd oscp-sdk
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -40,7 +40,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "oscp_api": {
       "command": "node",
-      "args": ["/path/to/local/oscp-typescript/packages/mcp-server", "--client=claude", "--tools=dynamic"],
+      "args": ["/path/to/local/oscp-sdk/packages/mcp-server", "--client=claude", "--tools=dynamic"],
       "env": {
         "OSCP_API_KEY": "My API Key"
       }
