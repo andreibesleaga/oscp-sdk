@@ -1,6 +1,6 @@
 # Oscp TypeScript API Library
 
-[![NPM version](<https://img.shields.io/npm/v/oscp.svg?label=npm%20(stable)>)](https://npmjs.org/package/oscp) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/oscp)
+[![NPM version](<https://img.shields.io/npm/v/oscp-sdk.svg?label=npm%20(stable)>)](https://npmjs.org/package/oscp-sdk) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/oscp-sdk)
 
 This library provides convenient access to the Oscp REST API from server-side TypeScript or JavaScript.
 
@@ -11,11 +11,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 ## Installation
 
 ```sh
-npm install git+ssh://git@github.com:andreibesleaga/oscp-sdk.git
+npm install oscp-sdk
 ```
-
-> [!NOTE]
-> Once this package is [published to npm](https://www.stainless.com/docs/guides/publish), this will become: `npm install oscp`
 
 ## Usage
 
@@ -23,7 +20,7 @@ The full API of this library can be found in [api.md](api.md).
 
 <!-- prettier-ignore -->
 ```js
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 
 const client = new Oscp({
   apiKey: process.env['OSCP_API_KEY'], // This is the default and can be omitted
@@ -42,7 +39,7 @@ This library includes TypeScript definitions for all request params and response
 
 <!-- prettier-ignore -->
 ```ts
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 
 const client = new Oscp({
   apiKey: process.env['OSCP_API_KEY'], // This is the default and can be omitted
@@ -187,7 +184,7 @@ The log level can be configured in two ways:
 2. Using the `logLevel` client option (overrides the environment variable if set)
 
 ```ts
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 
 const client = new Oscp({
   logLevel: 'debug', // Show all log messages
@@ -215,7 +212,7 @@ When providing a custom logger, the `logLevel` option still controls which messa
 below the configured level will not be sent to your logger.
 
 ```ts
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 import pino from 'pino';
 
 const logger = pino();
@@ -284,7 +281,7 @@ globalThis.fetch = fetch;
 Or pass it to the client:
 
 ```ts
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 import fetch from 'my-fetch';
 
 const client = new Oscp({ fetch });
@@ -295,7 +292,7 @@ const client = new Oscp({ fetch });
 If you want to set custom `fetch` options without overriding the `fetch` function, you can provide a `fetchOptions` object when instantiating the client or making a request. (Request-specific options override client options.)
 
 ```ts
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 
 const client = new Oscp({
   fetchOptions: {
@@ -312,7 +309,7 @@ options to requests:
 <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/node.svg" align="top" width="18" height="21"> **Node** <sup>[[docs](https://github.com/nodejs/undici/blob/main/docs/docs/api/ProxyAgent.md#example---proxyagent-with-fetch)]</sup>
 
 ```ts
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 import * as undici from 'undici';
 
 const proxyAgent = new undici.ProxyAgent('http://localhost:8888');
@@ -326,7 +323,7 @@ const client = new Oscp({
 <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/bun.svg" align="top" width="18" height="21"> **Bun** <sup>[[docs](https://bun.sh/guides/http/proxy)]</sup>
 
 ```ts
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 
 const client = new Oscp({
   fetchOptions: {
@@ -338,7 +335,7 @@ const client = new Oscp({
 <img src="https://raw.githubusercontent.com/stainless-api/sdk-assets/refs/heads/main/deno.svg" align="top" width="18" height="21"> **Deno** <sup>[[docs](https://docs.deno.com/api/deno/~/Deno.createHttpClient)]</sup>
 
 ```ts
-import Oscp from 'npm:oscp';
+import Oscp from 'npm:oscp-sdk';
 
 const httpClient = Deno.createHttpClient({ proxy: { url: 'http://localhost:8888' } });
 const client = new Oscp({

@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'oscp/internal/uploads';
-import { toFile } from 'oscp/core/uploads';
+import { multipartFormRequestOptions, createForm } from 'oscp-sdk/internal/uploads';
+import { toFile } from 'oscp-sdk/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {

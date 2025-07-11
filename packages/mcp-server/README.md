@@ -4,31 +4,16 @@ It is generated with [Stainless](https://www.stainless.com/).
 
 ## Installation
 
-### Building
+### Direct invocation
 
-Because it's not published yet, clone the repo and build it:
-
-```sh
-git clone git@github.com:andreibesleaga/oscp-sdk.git
-cd oscp-sdk
-./scripts/bootstrap
-./scripts/build
-```
-
-### Running
+You can run the MCP Server directly via `npx`:
 
 ```sh
-# set env vars as needed
 export OSCP_API_KEY="My API Key"
-node ./packages/mcp-server/dist/index.js
+npx -y oscp-mcp@latest
 ```
-
-> [!NOTE]
-> Once this package is [published to npm](https://www.stainless.com/docs/guides/publish), this will become: `npx -y oscp-mcp`
 
 ### Via MCP Client
-
-[Build the project](#building) as mentioned above.
 
 There is a partial list of existing clients at [modelcontextprotocol.io](https://modelcontextprotocol.io/clients). If you already
 have a client, consult their documentation to install the MCP server.
@@ -38,9 +23,9 @@ For clients with a configuration JSON, it might look something like this:
 ```json
 {
   "mcpServers": {
-    "oscp_api": {
-      "command": "node",
-      "args": ["/path/to/local/oscp-sdk/packages/mcp-server", "--client=claude", "--tools=dynamic"],
+    "oscp_sdk_api": {
+      "command": "npx",
+      "args": ["-y", "oscp-mcp", "--client=claude", "--tools=dynamic"],
       "env": {
         "OSCP_API_KEY": "My API Key"
       }
