@@ -1,12 +1,14 @@
-# Oscp TypeScript API Library
+# OSCP TypeScript API Library
 
 [![NPM version](<https://img.shields.io/npm/v/oscp-sdk.svg?label=npm%20(stable)>)](https://npmjs.org/package/oscp-sdk) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/oscp-sdk)
 
-This library provides convenient access to the Oscp REST API from server-side TypeScript or JavaScript.
+This library provides convenient access to the OSCP REST API from server-side TypeScript or JavaScript.
+(OSCP SDK & AI MCP Server Implementation for EV Charging Open Smart Charging Protocol)
+
+The library contains a packages/mcp-server for OSCP MCP AI communication server.
 
 The full API of this library can be found in [api.md](api.md).
 
-It is generated with [Stainless](https://www.stainless.com/).
 
 ## Installation
 
