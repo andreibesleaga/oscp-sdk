@@ -28,7 +28,7 @@ const client = new Oscp({
   apiKey: process.env['OSCP_API_KEY'], // This is the default and can be omitted
 });
 
-await client.oscp.fp.number2_0.register.create({
+await client.oscp.fp.v20.register.create({
   token: 'token',
   version_url: [{ base_url: 'base_url', version: 'version' }],
   'X-Request-ID': 'X-Request-ID',
@@ -47,12 +47,12 @@ const client = new Oscp({
   apiKey: process.env['OSCP_API_KEY'], // This is the default and can be omitted
 });
 
-const params: Oscp.OscpResource.Fp.Number2_0.RegisterCreateParams = {
+const params: Oscp.OscpResource.Fp.V20.RegisterCreateParams = {
   token: 'token',
   version_url: [{ base_url: 'base_url', version: 'version' }],
   'X-Request-ID': 'X-Request-ID',
 };
-await client.oscp.fp.number2_0.register.create(params);
+await client.oscp.fp.v20.register.create(params);
 ```
 
 Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
@@ -65,7 +65,7 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-const response = await client.oscp.fp.number2_0.register
+const response = await client.oscp.fp.v20.register
   .create({
     token: 'token',
     version_url: [{ base_url: 'base_url', version: 'version' }],
@@ -111,7 +111,7 @@ const client = new Oscp({
 });
 
 // Or, configure per-request:
-await client.oscp.fp.number2_0.register.create({ token: 'token', version_url: [{ base_url: 'base_url', version: 'version' }], 'X-Request-ID': 'X-Request-ID' }, {
+await client.oscp.fp.v20.register.create({ token: 'token', version_url: [{ base_url: 'base_url', version: 'version' }], 'X-Request-ID': 'X-Request-ID' }, {
   maxRetries: 5,
 });
 ```
@@ -128,7 +128,7 @@ const client = new Oscp({
 });
 
 // Override per-request:
-await client.oscp.fp.number2_0.register.create({ token: 'token', version_url: [{ base_url: 'base_url', version: 'version' }], 'X-Request-ID': 'X-Request-ID' }, {
+await client.oscp.fp.v20.register.create({ token: 'token', version_url: [{ base_url: 'base_url', version: 'version' }], 'X-Request-ID': 'X-Request-ID' }, {
   timeout: 5 * 1000,
 });
 ```
@@ -151,7 +151,7 @@ Unlike `.asResponse()` this method consumes the body, returning once it is parse
 ```ts
 const client = new Oscp();
 
-const response = await client.oscp.fp.number2_0.register
+const response = await client.oscp.fp.v20.register
   .create({
     token: 'token',
     version_url: [{ base_url: 'base_url', version: 'version' }],
@@ -161,7 +161,7 @@ const response = await client.oscp.fp.number2_0.register
 console.log(response.headers.get('X-My-Header'));
 console.log(response.statusText); // access the underlying Response object
 
-const { data: result, response: raw } = await client.oscp.fp.number2_0.register
+const { data: result, response: raw } = await client.oscp.fp.v20.register
   .create({
     token: 'token',
     version_url: [{ base_url: 'base_url', version: 'version' }],
@@ -249,7 +249,7 @@ parameter. This library doesn't validate at runtime that the request matches the
 send will be sent as-is.
 
 ```ts
-client.oscp.fp.number2_0.register.create({
+client.oscp.fp.v20.register.create({
   // ...
   // @ts-expect-error baz is not yet public
   baz: 'undocumented option',
