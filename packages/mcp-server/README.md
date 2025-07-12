@@ -133,7 +133,7 @@ over time, you can manually enable or disable certain capabilities:
 import { server, endpoints, init } from "oscp-mcp/server";
 
 // import a specific tool
-import handshakeFpOscpNumber2_0 from "oscp-mcp/tools/oscp/fp/number-2-0/handshake-fp-oscp-number-2-0";
+import handshakeFpOscpV20 from "oscp-mcp/tools/oscp/fp/v20/handshake-fp-oscp-v20";
 
 // initialize the server and all endpoints
 init({ server, endpoints });
@@ -158,49 +158,49 @@ const myCustomEndpoint = {
 };
 
 // initialize the server with your custom endpoints
-init({ server: myServer, endpoints: [handshakeFpOscpNumber2_0, myCustomEndpoint] });
+init({ server: myServer, endpoints: [handshakeFpOscpV20, myCustomEndpoint] });
 ```
 
 ## Available Tools
 
 The following tools are available in this MCP server.
 
-### Resource `oscp.fp.number_2_0`:
+### Resource `oscp.fp.v20`:
 
-- `handshake_fp_oscp_number_2_0` (`write`):
-- `handshake_acknowledge_fp_oscp_number_2_0` (`write`):
-- `heartbeat_fp_oscp_number_2_0` (`write`):
-- `update_group_capacity_forecast_fp_oscp_number_2_0` (`write`):
+- `handshake_fp_oscp_v20` (`write`):
+- `handshake_acknowledge_fp_oscp_v20` (`write`):
+- `heartbeat_fp_oscp_v20` (`write`):
+- `update_group_capacity_forecast_fp_oscp_v20` (`write`):
 
-### Resource `oscp.fp.number_2_0.register`:
+### Resource `oscp.fp.v20.register`:
 
-- `create_number_2_0_fp_oscp_register` (`write`):
-- `update_number_2_0_fp_oscp_register` (`write`):
-- `delete_number_2_0_fp_oscp_register` (`write`):
+- `create_v20_fp_oscp_register` (`write`):
+- `update_v20_fp_oscp_register` (`write`):
+- `delete_v20_fp_oscp_register` (`write`):
 
-### Resource `oscp.cp.number_2_0`:
+### Resource `oscp.cp.v20`:
 
-- `adjust_group_capacity_forecast_cp_oscp_number_2_0` (`write`):
-- `group_capacity_compliance_error_cp_oscp_number_2_0` (`write`):
-- `handshake_acknowledge_cp_oscp_number_2_0` (`write`):
-- `heartbeat_cp_oscp_number_2_0` (`write`):
-- `update_group_measurements_cp_oscp_number_2_0` (`write`):
+- `adjust_group_capacity_forecast_cp_oscp_v20` (`write`):
+- `group_capacity_compliance_error_cp_oscp_v20` (`write`):
+- `handshake_acknowledge_cp_oscp_v20` (`write`):
+- `heartbeat_cp_oscp_v20` (`write`):
+- `update_group_measurements_cp_oscp_v20` (`write`):
 
-### Resource `oscp.cp.number_2_0.register`:
+### Resource `oscp.cp.v20.register`:
 
-- `create_number_2_0_cp_oscp_register` (`write`):
-- `update_number_2_0_cp_oscp_register` (`write`):
-- `delete_number_2_0_cp_oscp_register` (`write`):
+- `create_v20_cp_oscp_register` (`write`):
+- `update_v20_cp_oscp_register` (`write`):
+- `delete_v20_cp_oscp_register` (`write`):
 
-### Resource `oscp.co.number_2_0`:
+### Resource `oscp.co.v20`:
 
-- `handshake_co_oscp_number_2_0` (`write`):
-- `heartbeat_co_oscp_number_2_0` (`write`):
-- `update_asset_measurements_co_oscp_number_2_0` (`write`):
-- `update_group_capacity_forecast_co_oscp_number_2_0` (`write`):
+- `handshake_co_oscp_v20` (`write`):
+- `heartbeat_co_oscp_v20` (`write`):
+- `update_asset_measurements_co_oscp_v20` (`write`):
+- `update_group_capacity_forecast_co_oscp_v20` (`write`):
 
-### Resource `oscp.co.number_2_0.register`:
+### Resource `oscp.co.v20.register`:
 
-- `create_number_2_0_co_oscp_register` (`write`):
-- `update_number_2_0_co_oscp_register` (`write`):
-- `delete_number_2_0_co_oscp_register` (`write`):
+- `create_v20_co_oscp_register` (`write`):
+- `update_v20_co_oscp_register` (`write`):
+- `delete_v20_co_oscp_register` (`write`):
