@@ -1,6 +1,6 @@
-# Oscp TypeScript MCP Server
+# OSCP TypeScript MCP Server
 
-It is generated with [Stainless](https://www.stainless.com/).
+A Model Context Protocol (MCP) server implementation for OSCP (Open Smart Charging Protocol) services, enabling AI assistants to interact with EV charging infrastructure.
 
 ## Installation
 
