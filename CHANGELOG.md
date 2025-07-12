@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.0-beta (2025-07-12)
+
+Full Changelog: [v0.1.5-beta...v0.2.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.1.5-beta...v0.2.0-beta)
+
+### Features
+
+* **api:** update via SDK Studio ([9fbd12b](https://github.com/andreibesleaga/oscp-sdk/commit/9fbd12be8fdb582469cf5add9be2c4ae3fc43375))
+
 ## 0.1.5-beta (2025-07-12)
 
 Full Changelog: [v0.1.4-beta...v0.1.5-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.1.4-beta...v0.1.5-beta)

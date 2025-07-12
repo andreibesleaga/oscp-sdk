@@ -26,7 +26,7 @@ export { endpoints } from './tools';
 export const server = new McpServer(
   {
     name: 'oscp_sdk_api',
-    version: '0.1.5-beta',
+    version: '0.2.0-beta',
   },
   {
     capabilities: {
