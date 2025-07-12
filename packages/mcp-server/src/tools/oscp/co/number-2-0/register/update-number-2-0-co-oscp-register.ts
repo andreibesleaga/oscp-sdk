@@ -4,7 +4,7 @@ import { asTextContentResult } from 'oscp-mcp/tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
 import type { Metadata } from '../../../../';
-import Oscp from 'oscp';
+import Oscp from 'oscp-sdk';
 
 export const metadata: Metadata = {
   resource: 'oscp.co.number_2_0.register',

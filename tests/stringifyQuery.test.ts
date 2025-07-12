@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { Oscp } from 'oscp';
+import { Oscp } from 'oscp-sdk';
 
 const { stringifyQuery } = Oscp.prototype as any;
 

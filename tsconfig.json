@@ -9,8 +9,8 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "oscp/*": ["src/*"],
-      "oscp": ["src/index.ts"]
+      "oscp-sdk/*": ["src/*"],
+      "oscp-sdk": ["src/index.ts"]
     },
     "noEmit": true,
 

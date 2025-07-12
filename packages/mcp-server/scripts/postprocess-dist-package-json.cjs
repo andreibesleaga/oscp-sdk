@@ -4,7 +4,7 @@ const parentPkgJson = require('../../../package.json');
 
 for (const dep in pkgJson.dependencies) {
   // ensure we point to NPM instead of a local directory
-  if (dep === 'oscp') {
+  if (dep === 'oscp-sdk') {
     pkgJson.dependencies[dep] = '^' + parentPkgJson.version;
   }
 }
