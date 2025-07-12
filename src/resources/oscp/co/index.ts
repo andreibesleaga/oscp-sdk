@@ -2,9 +2,9 @@
 
 export { Co } from './co';
 export {
-  Number2_0,
-  type Number2_0HandshakeParams,
-  type Number2_0HeartbeatParams,
-  type Number2_0UpdateAssetMeasurementsParams,
-  type Number2_0UpdateGroupCapacityForecastParams,
-} from './number-2-0/index';
+  V20,
+  type V20HandshakeParams,
+  type V20HeartbeatParams,
+  type V20UpdateAssetMeasurementsParams,
+  type V20UpdateGroupCapacityForecastParams,
+} from './v20/index';
