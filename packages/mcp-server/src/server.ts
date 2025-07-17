@@ -28,11 +28,7 @@ export const server = new McpServer(
     name: 'oscp_sdk_api',
     version: '0.2.0-beta',
   },
-  {
-    capabilities: {
-      tools: {},
-    },
-  },
+  { capabilities: { tools: {} } },
 );
 
 /**
