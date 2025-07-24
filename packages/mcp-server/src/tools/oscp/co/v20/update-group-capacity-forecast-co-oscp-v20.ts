@@ -77,6 +77,7 @@ export const tool: Tool = {
     },
     required: ['forecasted_blocks', 'group_id', 'type', 'X-Request-ID'],
   },
+  annotations: {},
 };
 
 export const handler = async (client: Oscp, args: Record<string, unknown> | undefined) => {

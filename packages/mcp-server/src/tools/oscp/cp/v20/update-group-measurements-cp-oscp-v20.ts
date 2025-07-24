@@ -81,6 +81,7 @@ export const tool: Tool = {
     },
     required: ['group_id', 'measurements', 'X-Request-ID'],
   },
+  annotations: {},
 };
 
 export const handler = async (client: Oscp, args: Record<string, unknown> | undefined) => {

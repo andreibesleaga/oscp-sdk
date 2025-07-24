@@ -62,6 +62,9 @@ export const tool: Tool = {
     },
     required: ['token', 'version_url', 'X-Request-ID'],
   },
+  annotations: {
+    idempotentHint: true,
+  },
 };
 
 export const handler = async (client: Oscp, args: Record<string, unknown> | undefined) => {
