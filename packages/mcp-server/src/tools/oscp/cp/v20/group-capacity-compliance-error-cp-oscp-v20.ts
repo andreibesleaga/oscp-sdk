@@ -73,6 +73,7 @@ export const tool: Tool = {
     },
     required: ['message', 'X-Request-ID'],
   },
+  annotations: {},
 };
 
 export const handler = async (client: Oscp, args: Record<string, unknown> | undefined) => {
