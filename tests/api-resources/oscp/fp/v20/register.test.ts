@@ -8,7 +8,7 @@ const client = new Oscp({
 });
 
 describe('resource register', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: only required params', async () => {
     const responsePromise = client.oscp.fp.v20.register.create({
       token: 'token',
@@ -24,7 +24,7 @@ describe('resource register', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('create: required and optional params', async () => {
     const response = await client.oscp.fp.v20.register.create({
       token: 'token',
@@ -36,7 +36,7 @@ describe('resource register', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('update: only required params', async () => {
     const responsePromise = client.oscp.fp.v20.register.update({
       token: 'token',
@@ -52,7 +52,7 @@ describe('resource register', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('update: required and optional params', async () => {
     const response = await client.oscp.fp.v20.register.update({
       token: 'token',
@@ -64,7 +64,7 @@ describe('resource register', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('delete: only required params', async () => {
     const responsePromise = client.oscp.fp.v20.register.delete({
       token: 'token',
@@ -80,7 +80,7 @@ describe('resource register', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('delete: required and optional params', async () => {
     const response = await client.oscp.fp.v20.register.delete({
       token: 'token',
