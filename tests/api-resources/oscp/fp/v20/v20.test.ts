@@ -8,7 +8,7 @@ const client = new Oscp({
 });
 
 describe('resource v20', () => {
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('handshake: only required params', async () => {
     const responsePromise = client.oscp.fp.v20.handshake({ 'X-Request-ID': 'X-Request-ID' });
     const rawResponse = await responsePromise.asResponse();
@@ -20,7 +20,7 @@ describe('resource v20', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('handshake: required and optional params', async () => {
     const response = await client.oscp.fp.v20.handshake({
       'X-Request-ID': 'X-Request-ID',
@@ -32,7 +32,7 @@ describe('resource v20', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('handshakeAcknowledge: only required params', async () => {
     const responsePromise = client.oscp.fp.v20.handshakeAcknowledge({ 'X-Request-ID': 'X-Request-ID' });
     const rawResponse = await responsePromise.asResponse();
@@ -44,7 +44,7 @@ describe('resource v20', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('handshakeAcknowledge: required and optional params', async () => {
     const response = await client.oscp.fp.v20.handshakeAcknowledge({
       'X-Request-ID': 'X-Request-ID',
@@ -56,7 +56,7 @@ describe('resource v20', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('heartbeat: only required params', async () => {
     const responsePromise = client.oscp.fp.v20.heartbeat({ 'X-Request-ID': 'X-Request-ID' });
     const rawResponse = await responsePromise.asResponse();
@@ -68,7 +68,7 @@ describe('resource v20', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('heartbeat: required and optional params', async () => {
     const response = await client.oscp.fp.v20.heartbeat({
       'X-Request-ID': 'X-Request-ID',
@@ -79,7 +79,7 @@ describe('resource v20', () => {
     });
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('updateGroupCapacityForecast: only required params', async () => {
     const responsePromise = client.oscp.fp.v20.updateGroupCapacityForecast({
       forecasted_blocks: [
@@ -104,7 +104,7 @@ describe('resource v20', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // skipped: tests are disabled for the time being
+  // Prism tests are disabled
   test.skip('updateGroupCapacityForecast: required and optional params', async () => {
     const response = await client.oscp.fp.v20.updateGroupCapacityForecast({
       forecasted_blocks: [
