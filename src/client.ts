@@ -716,7 +716,9 @@ export class Oscp {
 
   oscp: API.OscpResource = new API.OscpResource(this);
 }
+
 Oscp.OscpResource = OscpResource;
+
 export declare namespace Oscp {
   export type RequestOptions = Opts.RequestOptions;
 
