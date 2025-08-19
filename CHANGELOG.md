@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.3.0-beta (2025-08-19)
+
+Full Changelog: [v0.2.1-beta...v0.3.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.2.1-beta...v0.3.0-beta)
+
+### Features
+
+* **mcp:** parse query string as mcp client options in mcp server ([846df3e](https://github.com/andreibesleaga/oscp-sdk/commit/846df3e8386b91c90188a407a9f22bcbf1082f33))
+
+
+### Chores
+
+* **deps:** update dependency @types/node to v20.17.58 ([3c2f65e](https://github.com/andreibesleaga/oscp-sdk/commit/3c2f65e00344b3d141ac640282ca5ccd183a0e99))
+* **internal:** codegen related update ([6d96340](https://github.com/andreibesleaga/oscp-sdk/commit/6d96340a057187e382b8db27ceaa84834c8cb075))
+* **internal:** formatting change ([597a560](https://github.com/andreibesleaga/oscp-sdk/commit/597a56089c79cdee4583ead6a0d4f357d659e1dd))
+* **internal:** refactor array check ([391893b](https://github.com/andreibesleaga/oscp-sdk/commit/391893b45ec61cf0e52e59bdf312ed0ac5b8fc89))
+* **internal:** update comment in script ([913cb8d](https://github.com/andreibesleaga/oscp-sdk/commit/913cb8db1c31d657863f57b8863353f0c5ea0ff6))
+* **mcp:** document remote server in README.md ([ac5ab57](https://github.com/andreibesleaga/oscp-sdk/commit/ac5ab5728a26f82e782e8142b18e3e26ba71723d))
+* **mcp:** minor cleanup of types and package.json ([dcf10ca](https://github.com/andreibesleaga/oscp-sdk/commit/dcf10ca5926cc30bd00cd44e26dd6899ac482906))
+* **mcp:** update README ([dc3d6f9](https://github.com/andreibesleaga/oscp-sdk/commit/dc3d6f916cf090766ddef4bb5d01594c58b11b32))
+* update @stainless-api/prism-cli to v5.15.0 ([5c8427f](https://github.com/andreibesleaga/oscp-sdk/commit/5c8427ffe210ba5cfc90e965bdd318561e2b994b))
+
 ## 0.2.1-beta (2025-08-07)
 
 Full Changelog: [v0.2.0-beta...v0.2.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.2.0-beta...v0.2.1-beta)
