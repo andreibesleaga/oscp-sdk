@@ -1,10 +1,8 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { type ClientOptions } from 'oscp-sdk/client';
-
 import { dirname } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import Oscp from 'oscp-sdk';
+import Oscp, { ClientOptions } from 'oscp-sdk';
 import { Endpoint, ContentBlock, Metadata } from './tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';

@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { type ClientOptions } from 'oscp-sdk/client';
+import { ClientOptions } from 'oscp-sdk';
 
 export type WorkerInput = {
   opts: ClientOptions;
