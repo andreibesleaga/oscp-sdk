@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.4.0-beta (2025-08-24)
+
+Full Changelog: [v0.3.0-beta...v0.4.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.3.0-beta...v0.4.0-beta)
+
+### Features
+
+* **mcp:** add code execution tool ([0dec4cc](https://github.com/andreibesleaga/oscp-sdk/commit/0dec4cc338b64dae90d15cf9b54b1e933f8f2bd0))
+* **mcp:** add option to infer mcp client ([b207dca](https://github.com/andreibesleaga/oscp-sdk/commit/b207dca553590fa47742a053889e4dd55b4f45d4))
+
+
+### Chores
+
+* add package to package.json ([c834ddf](https://github.com/andreibesleaga/oscp-sdk/commit/c834ddfcbcfa15920c2dfdee58c085cfb570d23e))
+* **client:** qualify global Blob ([b249988](https://github.com/andreibesleaga/oscp-sdk/commit/b24998801dc1942397a80823c4049a3257392a3f))
+* **internal:** codegen related update ([53e980e](https://github.com/andreibesleaga/oscp-sdk/commit/53e980ef6553955940c2d85f9dcc197ba657a870))
+* **internal:** codegen related update ([49563e2](https://github.com/andreibesleaga/oscp-sdk/commit/49563e2025faa4a7f8f733e23346cb991011b37a))
+* **internal:** make mcp-server publishing public by defaut ([6b3ce72](https://github.com/andreibesleaga/oscp-sdk/commit/6b3ce720afcd75fd57858e81121c626eded46a0c))
+* **mcp:** add cors to oauth metadata route ([3f3b391](https://github.com/andreibesleaga/oscp-sdk/commit/3f3b39163ff877e63e5a1ec0b6b06180527aada9))
+* **mcp:** update package.json ([f04660d](https://github.com/andreibesleaga/oscp-sdk/commit/f04660dbb36ad7ba3a0aaaafc505071afc546311))
+* **mcp:** update types ([0762b0e](https://github.com/andreibesleaga/oscp-sdk/commit/0762b0e6216a5d23e0f01a5648f0effe7fbe95f2))
+* update CI script ([98b7153](https://github.com/andreibesleaga/oscp-sdk/commit/98b7153d0416df3612e4b190c6ad91517e72ff89))
+
 ## 0.3.0-beta (2025-08-19)
 
 Full Changelog: [v0.2.1-beta...v0.3.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.2.1-beta...v0.3.0-beta)
