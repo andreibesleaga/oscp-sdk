@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.2-beta (2025-08-29)
+
+Full Changelog: [v0.4.1-beta...v0.4.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.4.1-beta...v0.4.2-beta)
+
+### Chores
+
+* **internal:** update global Error reference ([b51d86e](https://github.com/andreibesleaga/oscp-sdk/commit/b51d86e253fb6fd6c912a7fa02f0bbebb89c1490))
+
 ## 0.4.1-beta (2025-08-25)
 
 Full Changelog: [v0.4.0-beta...v0.4.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.4.0-beta...v0.4.1-beta)
