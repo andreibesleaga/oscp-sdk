@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.5.0-beta (2025-09-06)
+
+Full Changelog: [v0.4.1-beta...v0.5.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.4.1-beta...v0.5.0-beta)
+
+### Features
+
+* **mcp:** allow setting logging level ([cfb20e1](https://github.com/andreibesleaga/oscp-sdk/commit/cfb20e18af9c6ee3a1521622de6080c55a3df2fa))
+* **mcp:** expose client options in `streamableHTTPApp` ([8436190](https://github.com/andreibesleaga/oscp-sdk/commit/8436190b03beaca5e6c345ba6080aeed63bce827))
+
+
+### Bug Fixes
+
+* **mcp:** fix query options parsing ([94422f1](https://github.com/andreibesleaga/oscp-sdk/commit/94422f1ed37ccfe257cdc020a80883a932a11f20))
+
+
+### Chores
+
+* ci build action ([1ce21cf](https://github.com/andreibesleaga/oscp-sdk/commit/1ce21cf12c2cb678c41a5ce2b42b35c5d4fd8ead))
+* **internal:** codegen related update ([88052f5](https://github.com/andreibesleaga/oscp-sdk/commit/88052f5a1a2d7570462d283bb11995a0d15ce1fb))
+* **internal:** codegen related update ([5dafbd5](https://github.com/andreibesleaga/oscp-sdk/commit/5dafbd5468480987531c98d312f6359a087c6dc3))
+* **internal:** update global Error reference ([b51d86e](https://github.com/andreibesleaga/oscp-sdk/commit/b51d86e253fb6fd6c912a7fa02f0bbebb89c1490))
+
 ## 0.4.1-beta (2025-08-25)
 
 Full Changelog: [v0.4.0-beta...v0.4.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.4.0-beta...v0.4.1-beta)
