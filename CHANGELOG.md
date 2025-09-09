@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.1-beta (2025-09-09)
+
+Full Changelog: [v0.5.0-beta...v0.5.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.0-beta...v0.5.1-beta)
+
+### Bug Fixes
+
+* coerce nullable values to undefined ([f363b08](https://github.com/andreibesleaga/oscp-sdk/commit/f363b084cf82297f34e5a75591eca5909c0cbc7a))
+* **mcp:** update dxt manifest.json files ([6c5d523](https://github.com/andreibesleaga/oscp-sdk/commit/6c5d523e0d82ae781286c2b724f515c76d269ad6))
+
 ## 0.5.0-beta (2025-09-06)
 
 Full Changelog: [v0.4.1-beta...v0.5.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.4.1-beta...v0.5.0-beta)
