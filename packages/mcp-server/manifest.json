@@ -4,15 +4,13 @@
   "version": "0.5.0-beta",
   "description": "The official MCP Server for the Oscp API",
   "author": {
-    "name": "Oscp",
-    "email": ""
+    "name": "Oscp"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andreibesleaga/oscp-sdk.git"
   },
   "homepage": "https://github.com/andreibesleaga/oscp-sdk/tree/main/packages/mcp-server#readme",
-  "documentation": "",
   "server": {
     "type": "node",
     "entry_point": "${__dirname}/index.js",
