@@ -1,6 +1,6 @@
 {
   "name": "oscp-mcp",
-  "version": "0.5.1-beta",
+  "version": "0.5.2-beta",
   "description": "The official MCP Server for the Oscp API",
   "author": "Oscp <>",
   "types": "dist/index.d.ts",
