@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.5.2-beta (2025-09-12)
+
+Full Changelog: [v0.5.1-beta...v0.5.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.1-beta...v0.5.2-beta)
+
+### Bug Fixes
+
+* **mcp:** fix uploading dxt release assets ([cfb4859](https://github.com/andreibesleaga/oscp-sdk/commit/cfb48592df8fe46b39e15677f6bfc29e21cedd04))
+
+
+### Chores
+
+* **mcp:** upload dxt as release asset ([c2f19d8](https://github.com/andreibesleaga/oscp-sdk/commit/c2f19d8280cb1682aa94ace593e669d31543484d))
+
 ## 0.5.1-beta (2025-09-09)
 
 Full Changelog: [v0.5.0-beta...v0.5.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.0-beta...v0.5.1-beta)
