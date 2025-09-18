@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.5.3-beta (2025-09-18)
+
+Full Changelog: [v0.5.2-beta...v0.5.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.2-beta...v0.5.3-beta)
+
+### Bug Fixes
+
+* **ci:** set permissions for DXT publish action ([798e2e9](https://github.com/andreibesleaga/oscp-sdk/commit/798e2e96c620a877d93a80718fd6975902169c00))
+
+
+### Chores
+
+* **mcp:** rename dxt to mcpb ([7fadee0](https://github.com/andreibesleaga/oscp-sdk/commit/7fadee020e08865744ed15b77135bb392d57ddd5))
+
 ## 0.5.2-beta (2025-09-12)
 
 Full Changelog: [v0.5.1-beta...v0.5.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.1-beta...v0.5.2-beta)
