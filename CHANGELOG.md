@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.6.0-beta (2025-09-20)
+
+Full Changelog: [v0.5.3-beta...v0.6.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.3-beta...v0.6.0-beta)
+
+### Features
+
+* **mcp:** add docs search tool ([e83254e](https://github.com/andreibesleaga/oscp-sdk/commit/e83254ea7d5933a32363543a8daa1e0904767719))
+
+
+### Chores
+
+* **codegen:** internal codegen update ([3b49070](https://github.com/andreibesleaga/oscp-sdk/commit/3b49070a6e6707a317e926bc952e9a32d7db9c42))
+* do not install brew dependencies in ./scripts/bootstrap by default ([0463235](https://github.com/andreibesleaga/oscp-sdk/commit/04632355552042cd13c072e85d06c6a5001debdf))
+* **internal:** gitignore .mcpb files ([47f68c5](https://github.com/andreibesleaga/oscp-sdk/commit/47f68c58e35754696e140ae5818a4f57196d283a))
+
 ## 0.5.3-beta (2025-09-18)
 
 Full Changelog: [v0.5.2-beta...v0.5.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.2-beta...v0.5.3-beta)
