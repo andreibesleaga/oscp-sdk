@@ -1,7 +1,7 @@
 {
   "dxt_version": "0.2",
   "name": "oscp-mcp",
-  "version": "0.6.0-beta",
+  "version": "0.7.0-beta",
   "description": "The official MCP Server for the Oscp API",
   "author": {
     "name": "Oscp"
