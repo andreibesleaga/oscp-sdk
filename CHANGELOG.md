@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0-beta (2025-09-24)
+
+Full Changelog: [v0.6.0-beta...v0.7.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.6.0-beta...v0.7.0-beta)
+
+### Features
+
+* **mcp:** add option for including docs tools ([31f769f](https://github.com/andreibesleaga/oscp-sdk/commit/31f769fe8a9864f40224befb80620a945d853f3d))
+* **mcp:** enable experimental docs search tool ([c6f66fc](https://github.com/andreibesleaga/oscp-sdk/commit/c6f66fcd22c28f29fe93c6b30196e1f50862a827))
+
 ## 0.6.0-beta (2025-09-20)
 
 Full Changelog: [v0.5.3-beta...v0.6.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.5.3-beta...v0.6.0-beta)
