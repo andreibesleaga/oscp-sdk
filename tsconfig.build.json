@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "oscp-sdk/*": ["dist/src/*"],
-      "oscp-sdk": ["dist/src/index.ts"]
+      "oscp-sdk/*": ["./dist/src/*"],
+      "oscp-sdk": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,
