@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.7.1-beta (2025-09-26)
+
+Full Changelog: [v0.7.0-beta...v0.7.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.0-beta...v0.7.1-beta)
+
+### Performance Improvements
+
+* faster formatting ([75f0281](https://github.com/andreibesleaga/oscp-sdk/commit/75f0281a353065e2a03978c852e8c1f51963a080))
+
+
+### Chores
+
+* **internal:** remove deprecated `compilerOptions.baseUrl` from tsconfig.json ([b4ed9b2](https://github.com/andreibesleaga/oscp-sdk/commit/b4ed9b28b6bd09196242557d428ed67f0f9346aa))
+
 ## 0.7.0-beta (2025-09-24)
 
 Full Changelog: [v0.6.0-beta...v0.7.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.6.0-beta...v0.7.0-beta)
