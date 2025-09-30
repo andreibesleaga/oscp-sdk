@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.2-beta (2025-09-27)
+
+Full Changelog: [v0.7.1-beta...v0.7.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.1-beta...v0.7.2-beta)
+
+### Chores
+
+* **internal:** fix incremental formatting in some cases ([53f1886](https://github.com/andreibesleaga/oscp-sdk/commit/53f1886f5e9ab070430bf5d423d26d932ec8b518))
+
 ## 0.7.1-beta (2025-09-26)
 
 Full Changelog: [v0.7.0-beta...v0.7.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.0-beta...v0.7.1-beta)
