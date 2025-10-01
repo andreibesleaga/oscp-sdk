@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.7.3-beta (2025-10-01)
+
+Full Changelog: [v0.7.2-beta...v0.7.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.2-beta...v0.7.3-beta)
+
+### Bug Fixes
+
+* **mcp:** fix cli argument parsing logic ([48f1866](https://github.com/andreibesleaga/oscp-sdk/commit/48f186622a08335110d09f786ee478cdd5725a20))
+* **mcp:** resolve a linting issue in server code ([e9d61dd](https://github.com/andreibesleaga/oscp-sdk/commit/e9d61dd3dfc14784c2a429254ef77178d5dbf104))
+
+
+### Chores
+
+* **internal:** codegen related update ([7906c35](https://github.com/andreibesleaga/oscp-sdk/commit/7906c358f1f68d6932595d093b030b9dd246272b))
+* **internal:** ignore .eslintcache ([a93d8b5](https://github.com/andreibesleaga/oscp-sdk/commit/a93d8b578006ad4ecb400094dccee86cd337cc01))
+* **mcp:** allow pointing `docs_search` tool at other URLs ([4f7a989](https://github.com/andreibesleaga/oscp-sdk/commit/4f7a989ac9afef961839fff1566d47b012c2f750))
+
 ## 0.7.2-beta (2025-09-27)
 
 Full Changelog: [v0.7.1-beta...v0.7.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.1-beta...v0.7.2-beta)
