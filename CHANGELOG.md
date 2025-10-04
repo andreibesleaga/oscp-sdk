@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.4-beta (2025-10-04)
+
+Full Changelog: [v0.7.3-beta...v0.7.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.3-beta...v0.7.4-beta)
+
+### Chores
+
+* **jsdoc:** fix [@link](https://github.com/link) annotations to refer only to parts of the package‘s public interface ([1e8e3e8](https://github.com/andreibesleaga/oscp-sdk/commit/1e8e3e8d2c40e75f7cbf95a6f4ba7030644d38f8))
+
 ## 0.7.3-beta (2025-10-01)
 
 Full Changelog: [v0.7.2-beta...v0.7.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.2-beta...v0.7.3-beta)
