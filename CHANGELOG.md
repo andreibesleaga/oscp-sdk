@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.5-beta (2025-10-07)
+
+Full Changelog: [v0.7.4-beta...v0.7.5-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.4-beta...v0.7.5-beta)
+
+### Chores
+
+* **internal:** use npm pack for build uploads ([cd6f5b6](https://github.com/andreibesleaga/oscp-sdk/commit/cd6f5b684805ea5b641f851134b2506d25e63cac))
+
 ## 0.7.4-beta (2025-10-04)
 
 Full Changelog: [v0.7.3-beta...v0.7.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.3-beta...v0.7.4-beta)
