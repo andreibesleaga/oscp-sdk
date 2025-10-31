@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.6-beta (2025-10-31)
+
+Full Changelog: [v0.7.5-beta...v0.7.6-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.5-beta...v0.7.6-beta)
+
+### Bug Fixes
+
+* **mcpb:** pin @anthropic-ai/mcpb version ([e9b8f76](https://github.com/andreibesleaga/oscp-sdk/commit/e9b8f76096010decc4b3b2fa3eae7d786767d618))
+
 ## 0.7.5-beta (2025-10-07)
 
 Full Changelog: [v0.7.4-beta...v0.7.5-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.4-beta...v0.7.5-beta)
