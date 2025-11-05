@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.8.0-beta (2025-11-05)
+
+Full Changelog: [v0.7.6-beta...v0.8.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.6-beta...v0.8.0-beta)
+
+### Features
+
+* **mcp:** enable optional code execution tool on http mcp servers ([7a5674b](https://github.com/andreibesleaga/oscp-sdk/commit/7a5674b6b0e83fb0879b17cb0b987a51724b0a40))
+
+
+### Chores
+
+* **internal:** grammar fix (it's -&gt; its) ([00064cd](https://github.com/andreibesleaga/oscp-sdk/commit/00064cdfe68495f970162a4a321c5efa3164246d))
+* mcp code tool explicit error message when missing a run function ([92ed384](https://github.com/andreibesleaga/oscp-sdk/commit/92ed3843dec189e290c61393dc9d99c3cb3c650a))
+* use structured error when code execution tool errors ([bab1da1](https://github.com/andreibesleaga/oscp-sdk/commit/bab1da171b4ca90e5f38172aed2a7209116f2159))
+
 ## 0.7.6-beta (2025-10-31)
 
 Full Changelog: [v0.7.5-beta...v0.7.6-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.5-beta...v0.7.6-beta)
