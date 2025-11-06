@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.8.1-beta (2025-11-06)
+
+Full Changelog: [v0.8.0-beta...v0.8.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.0-beta...v0.8.1-beta)
+
+### Chores
+
+* **internal:** codegen related update ([723749b](https://github.com/andreibesleaga/oscp-sdk/commit/723749ba5c205061c074c10dc1bd30a841bb0d67))
+* **mcp:** add friendlier MCP code tool errors on incorrect method invocations ([b22e518](https://github.com/andreibesleaga/oscp-sdk/commit/b22e518b8dc2408b8aa137bde23a542e1d36cdd3))
+* **mcp:** add line numbers to code tool errors ([9e2134d](https://github.com/andreibesleaga/oscp-sdk/commit/9e2134d8399146f3d222237c4b0feda5a5865b83))
+
+
+### Documentation
+
+* **mcp:** add a README button for one-click add to Cursor ([23b6c1b](https://github.com/andreibesleaga/oscp-sdk/commit/23b6c1b16b1e0377717495d7825dfbde3ce3d951))
+
 ## 0.8.0-beta (2025-11-05)
 
 Full Changelog: [v0.7.6-beta...v0.8.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.7.6-beta...v0.8.0-beta)
