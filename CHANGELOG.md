@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.3-beta (2025-11-13)
+
+Full Changelog: [v0.8.2-beta...v0.8.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.2-beta...v0.8.3-beta)
+
+### Chores
+
+* **mcp:** upgrade jq-web ([d780cb2](https://github.com/andreibesleaga/oscp-sdk/commit/d780cb26a62c5d17f9545b237a06a5b2859ca7ba))
+
 ## 0.8.2-beta (2025-11-13)
 
 Full Changelog: [v0.8.1-beta...v0.8.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.1-beta...v0.8.2-beta)
