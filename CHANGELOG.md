@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.8.2-beta (2025-11-13)
+
+Full Changelog: [v0.8.1-beta...v0.8.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.1-beta...v0.8.2-beta)
+
+### Bug Fixes
+
+* **mcp:** return tool execution error on jq failure ([8451bdf](https://github.com/andreibesleaga/oscp-sdk/commit/8451bdf60371eacea94e6efa6a202609ffb20204))
+
+
+### Chores
+
+* **internal:** codegen related update ([a652a92](https://github.com/andreibesleaga/oscp-sdk/commit/a652a921b61396f5ed8dafc5e0339c78d4982209))
+* **mcp:** clarify http auth error ([ac69e3b](https://github.com/andreibesleaga/oscp-sdk/commit/ac69e3bef3256590211a6fdd4ffc3c9cbb484d78))
+
+
+### Documentation
+
+* **mcp:** add a README link to add server to VS Code or Claude Code ([25eae7e](https://github.com/andreibesleaga/oscp-sdk/commit/25eae7e4083050bbc6719e6757e2e7b65ad13d3f))
+
 ## 0.8.1-beta (2025-11-06)
 
 Full Changelog: [v0.8.0-beta...v0.8.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.0-beta...v0.8.1-beta)
