@@ -1,6 +1,6 @@
 {
   "name": "oscp-sdk",
-  "version": "0.8.1-beta",
+  "version": "0.8.2-beta",
   "description": "The official TypeScript library for the Oscp API",
   "author": "Oscp <>",
   "types": "dist/index.d.ts",
