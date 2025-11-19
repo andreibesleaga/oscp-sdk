@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.4-beta (2025-11-19)
+
+Full Changelog: [v0.8.3-beta...v0.8.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.3-beta...v0.8.4-beta)
+
+### Chores
+
+* **internal:** configure MCP Server hosting ([caaa085](https://github.com/andreibesleaga/oscp-sdk/commit/caaa085841fcb9cf3897cc87f9d8c2e01b0cda91))
+
 ## 0.8.3-beta (2025-11-13)
 
 Full Changelog: [v0.8.2-beta...v0.8.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.2-beta...v0.8.3-beta)
