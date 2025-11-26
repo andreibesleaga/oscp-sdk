@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.0-beta (2025-11-26)
+
+Full Changelog: [v0.8.4-beta...v0.9.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.4-beta...v0.9.0-beta)
+
+### Features
+
+* **mcp:** add detail field to docs search tool ([141abc2](https://github.com/andreibesleaga/oscp-sdk/commit/141abc2928bc7f11865ccf63e4db291f76f129d1))
+
 ## 0.8.4-beta (2025-11-19)
 
 Full Changelog: [v0.8.3-beta...v0.8.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.3-beta...v0.8.4-beta)
