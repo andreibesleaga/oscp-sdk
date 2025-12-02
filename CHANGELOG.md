@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.9.0-beta (2025-12-02)
+
+Full Changelog: [v0.8.4-beta...v0.9.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.4-beta...v0.9.0-beta)
+
+### Features
+
+* **mcp:** add detail field to docs search tool ([141abc2](https://github.com/andreibesleaga/oscp-sdk/commit/141abc2928bc7f11865ccf63e4db291f76f129d1))
+* **mcp:** return logs on code tool errors ([71ad7fb](https://github.com/andreibesleaga/oscp-sdk/commit/71ad7fbdbd98bbda49a468fa20e4ec8dc0217319))
+
+
+### Chores
+
+* **client:** fix logger property type ([b950ede](https://github.com/andreibesleaga/oscp-sdk/commit/b950edee1b56ec2cae0ddc0ac60eab9532e77b37))
+
 ## 0.8.4-beta (2025-11-19)
 
 Full Changelog: [v0.8.3-beta...v0.8.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.3-beta...v0.8.4-beta)
