@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.10.2-beta (2025-12-06)
+
+Full Changelog: [v0.10.1-beta...v0.10.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.1-beta...v0.10.2-beta)
+
+### Chores
+
+* **internal:** codegen related update ([072c226](https://github.com/andreibesleaga/oscp-sdk/commit/072c226bf2a424fbbe71ade2ed1defc28fe9ce84))
+
 ## 0.10.1-beta (2025-12-06)
 
 Full Changelog: [v0.10.0-beta...v0.10.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.0-beta...v0.10.1-beta)
