@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.10.1-beta (2025-12-06)
+
+Full Changelog: [v0.10.0-beta...v0.10.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.0-beta...v0.10.1-beta)
+
+### Bug Fixes
+
+* **mcp:** correct code tool API endpoint ([c383ae6](https://github.com/andreibesleaga/oscp-sdk/commit/c383ae69966730c369badd91ab42cb56731d83fb))
+
 ## 0.10.0-beta (2025-12-06)
 
 Full Changelog: [v0.9.0-beta...v0.10.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.9.0-beta...v0.10.0-beta)
