@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.10.0-beta (2025-12-06)
+
+Full Changelog: [v0.9.0-beta...v0.10.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.9.0-beta...v0.10.0-beta)
+
+### Features
+
+* **mcp:** add typescript check to code execution tool ([cb43b00](https://github.com/andreibesleaga/oscp-sdk/commit/cb43b003660d841fd3d1aadbf61a1fe64480ccfc))
+* **mcp:** handle code mode calls in the Stainless API ([f0610c0](https://github.com/andreibesleaga/oscp-sdk/commit/f0610c08e8ebef3d28ec988c8ffecb43bd7e946c))
+
+
+### Bug Fixes
+
+* **mcp:** return correct lines on typescript errors ([bdc154b](https://github.com/andreibesleaga/oscp-sdk/commit/bdc154bb9ca81228d9b3e3e3823f49deb58db178))
+
+
+### Chores
+
+* **internal:** codegen related update ([e5b04ec](https://github.com/andreibesleaga/oscp-sdk/commit/e5b04ec4abc5d0d254013da39b8309e5516f6658))
+* **internal:** upgrade eslint ([e47984c](https://github.com/andreibesleaga/oscp-sdk/commit/e47984c28ef7cf94e6c717ed6cdbd2a25e8e9c2c))
+* use latest @modelcontextprotocol/sdk ([55db825](https://github.com/andreibesleaga/oscp-sdk/commit/55db8259a26401451dc26517b647e5fb925ceb37))
+
 ## 0.9.0-beta (2025-12-02)
 
 Full Changelog: [v0.8.4-beta...v0.9.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.8.4-beta...v0.9.0-beta)
