@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.10.3-beta (2025-12-11)
+
+Full Changelog: [v0.10.2-beta...v0.10.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.2-beta...v0.10.3-beta)
+
+### Bug Fixes
+
+* **mcp:** add client instantiation options to code tool ([9151762](https://github.com/andreibesleaga/oscp-sdk/commit/915176276b3e8493783e4ffb8eb6196845e40594))
+
+
+### Chores
+
+* **mcp:** update lockfile ([dc571e6](https://github.com/andreibesleaga/oscp-sdk/commit/dc571e6abdd674d56fc566d0618f1dac43fe173f))
+
 ## 0.10.2-beta (2025-12-06)
 
 Full Changelog: [v0.10.1-beta...v0.10.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.1-beta...v0.10.2-beta)
