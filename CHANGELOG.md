@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.10.4-beta (2025-12-18)
+
+Full Changelog: [v0.10.3-beta...v0.10.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.3-beta...v0.10.4-beta)
+
+### Bug Fixes
+
+* **mcp:** pass base url to code tool ([9bbe018](https://github.com/andreibesleaga/oscp-sdk/commit/9bbe01822d87bc4f8ca03ee32b70acdc1d9c7dc8))
+
 ## 0.10.3-beta (2025-12-11)
 
 Full Changelog: [v0.10.2-beta...v0.10.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.2-beta...v0.10.3-beta)
