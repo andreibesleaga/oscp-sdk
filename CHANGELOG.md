@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.11.0-beta (2025-12-19)
+
+Full Changelog: [v0.10.4-beta...v0.11.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.4-beta...v0.11.0-beta)
+
+### ⚠ BREAKING CHANGES
+
+* **mcp:** remove deprecated tool schemes
+* **mcp:** **Migration:** To migrate, simply modify the command used to invoke the MCP server. Currently, the only supported tool scheme is code mode. Now, starting the server with just `node /path/to/mcp/server` or `npx package-name` will invoke code tools: changing your command to one of these is likely all you will need to do.
+
+### Chores
+
+* **mcp:** remove deprecated tool schemes ([9215770](https://github.com/andreibesleaga/oscp-sdk/commit/92157704e68bc36fbbc199708f48e2e96c7458d8))
+
 ## 0.10.4-beta (2025-12-18)
 
 Full Changelog: [v0.10.3-beta...v0.10.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.3-beta...v0.10.4-beta)
