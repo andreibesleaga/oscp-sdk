@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.11.1-beta (2026-01-06)
+
+Full Changelog: [v0.11.0-beta...v0.11.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.0-beta...v0.11.1-beta)
+
+### Bug Fixes
+
+* **mcp:** correct code tool api output types ([e4e1502](https://github.com/andreibesleaga/oscp-sdk/commit/e4e15020d855d63176686515f35e34cb58abf2bb))
+
+
+### Chores
+
+* **internal:** fix dockerfile ([c890a9a](https://github.com/andreibesleaga/oscp-sdk/commit/c890a9a87ddb285031a78d3a56350bcb1f893e0e))
+
+
+### Documentation
+
+* prominently feature MCP server setup in root SDK readmes ([9ed2cda](https://github.com/andreibesleaga/oscp-sdk/commit/9ed2cdade8612f8d7653757c99ba1c5f1c2e7cdd))
+
 ## 0.11.0-beta (2025-12-19)
 
 Full Changelog: [v0.10.4-beta...v0.11.0-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.10.4-beta...v0.11.0-beta)
