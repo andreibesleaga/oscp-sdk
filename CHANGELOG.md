@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.11.2-beta (2026-01-07)
+
+Full Changelog: [v0.11.1-beta...v0.11.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.1-beta...v0.11.2-beta)
+
+### Bug Fixes
+
+* **mcp:** fix options parsing ([30ad8cd](https://github.com/andreibesleaga/oscp-sdk/commit/30ad8cd8b50526cfaf868ba34afd57326bac43e7))
+
+
+### Chores
+
+* break long lines in snippets into multiline ([d3f741c](https://github.com/andreibesleaga/oscp-sdk/commit/d3f741c1fa4f876c103045344e0a2ff5ae8d29f5))
+
 ## 0.11.1-beta (2026-01-06)
 
 Full Changelog: [v0.11.0-beta...v0.11.1-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.0-beta...v0.11.1-beta)
