@@ -118,7 +118,11 @@ const client = new Oscp({
 });
 
 // Or, configure per-request:
-await client.oscp.fp.v20.register.create({ token: 'token', version_url: [{ base_url: 'base_url', version: 'version' }], 'X-Request-ID': 'X-Request-ID' }, {
+await client.oscp.fp.v20.register.create({
+  token: 'token',
+  version_url: [{ base_url: 'base_url', version: 'version' }],
+  'X-Request-ID': 'X-Request-ID',
+}, {
   maxRetries: 5,
 });
 ```
@@ -135,7 +139,11 @@ const client = new Oscp({
 });
 
 // Override per-request:
-await client.oscp.fp.v20.register.create({ token: 'token', version_url: [{ base_url: 'base_url', version: 'version' }], 'X-Request-ID': 'X-Request-ID' }, {
+await client.oscp.fp.v20.register.create({
+  token: 'token',
+  version_url: [{ base_url: 'base_url', version: 'version' }],
+  'X-Request-ID': 'X-Request-ID',
+}, {
   timeout: 5 * 1000,
 });
 ```
