@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.11.3-beta (2026-01-08)
+
+Full Changelog: [v0.11.2-beta...v0.11.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.2-beta...v0.11.3-beta)
+
+### Bug Fixes
+
+* **mcp:** fix env parsing ([ffcd285](https://github.com/andreibesleaga/oscp-sdk/commit/ffcd285e39e18e0d38de35191079cd2772c6bc8d))
+
 ## 0.11.2-beta (2026-01-07)
 
 Full Changelog: [v0.11.1-beta...v0.11.2-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.1-beta...v0.11.2-beta)
