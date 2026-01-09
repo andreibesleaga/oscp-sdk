@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.11.4-beta (2026-01-09)
+
+Full Changelog: [v0.11.3-beta...v0.11.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.3-beta...v0.11.4-beta)
+
+### Bug Fixes
+
+* **mcp:** update code tool prompt ([8185883](https://github.com/andreibesleaga/oscp-sdk/commit/8185883398935d59fa32a2971d3530d6c274b353))
+
 ## 0.11.3-beta (2026-01-08)
 
 Full Changelog: [v0.11.2-beta...v0.11.3-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.2-beta...v0.11.3-beta)
