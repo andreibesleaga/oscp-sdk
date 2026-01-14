@@ -93,32 +93,32 @@ export class Register extends APIResource {
 
 export interface RegisterCreateParams {
   /**
-   * Body param:
+   * Body param
    */
   token: string;
 
   /**
-   * Body param:
+   * Body param
    */
   version_url: Array<RegisterCreateParams.VersionURL>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
@@ -139,32 +139,32 @@ export namespace RegisterCreateParams {
 
 export interface RegisterUpdateParams {
   /**
-   * Body param:
+   * Body param
    */
   token: string;
 
   /**
-   * Body param:
+   * Body param
    */
   version_url: Array<RegisterUpdateParams.VersionURL>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
@@ -185,32 +185,32 @@ export namespace RegisterUpdateParams {
 
 export interface RegisterDeleteParams {
   /**
-   * Body param:
+   * Body param
    */
   token: string;
 
   /**
-   * Body param:
+   * Body param
    */
   version_url: Array<RegisterDeleteParams.VersionURL>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
