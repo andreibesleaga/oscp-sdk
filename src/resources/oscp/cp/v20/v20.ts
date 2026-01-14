@@ -162,37 +162,37 @@ export class V20 extends APIResource {
 
 export interface V20AdjustGroupCapacityForecastParams {
   /**
-   * Body param:
+   * Body param
    */
   forecasted_blocks: Array<V20AdjustGroupCapacityForecastParams.ForecastedBlock>;
 
   /**
-   * Body param:
+   * Body param
    */
   group_id: string;
 
   /**
-   * Body param:
+   * Body param
    */
   type: 'CONSUMPTION' | 'GENERATION' | 'FALLBACK_CONSUMPTION' | 'FALLBACK_GENERATION' | 'OPTIMUM';
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
@@ -213,32 +213,32 @@ export namespace V20AdjustGroupCapacityForecastParams {
 
 export interface V20GroupCapacityComplianceErrorParams {
   /**
-   * Body param:
+   * Body param
    */
   message: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Body param:
+   * Body param
    */
   forecasted_blocks?: Array<V20GroupCapacityComplianceErrorParams.ForecastedBlock>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
@@ -259,7 +259,7 @@ export namespace V20GroupCapacityComplianceErrorParams {
 
 export interface V20HandshakeAcknowledgeParams {
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
@@ -278,24 +278,24 @@ export interface V20HandshakeAcknowledgeParams {
   measurement_configuration?: Array<'CONTINUOUS' | 'INTERMITTENT'>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
 
 export interface V20HeartbeatParams {
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
@@ -307,49 +307,49 @@ export interface V20HeartbeatParams {
   offline_mode_at?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
 
 export interface V20UpdateGroupMeasurementsParams {
   /**
-   * Body param:
+   * Body param
    */
   group_id: string;
 
   /**
-   * Body param:
+   * Body param
    */
   measurements: Array<V20UpdateGroupMeasurementsParams.Measurement>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }

@@ -131,7 +131,7 @@ export class V20 extends APIResource {
 
 export interface V20HandshakeParams {
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
@@ -150,24 +150,24 @@ export interface V20HandshakeParams {
   measurement_configuration?: Array<'CONTINUOUS' | 'INTERMITTENT'>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
 
 export interface V20HeartbeatParams {
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
@@ -179,49 +179,49 @@ export interface V20HeartbeatParams {
   offline_mode_at?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
 
 export interface V20UpdateAssetMeasurementsParams {
   /**
-   * Body param:
+   * Body param
    */
   group_id: string;
 
   /**
-   * Body param:
+   * Body param
    */
   measurements: Array<V20UpdateAssetMeasurementsParams.Measurement>;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
@@ -268,37 +268,37 @@ export namespace V20UpdateAssetMeasurementsParams {
 
 export interface V20UpdateGroupCapacityForecastParams {
   /**
-   * Body param:
+   * Body param
    */
   forecasted_blocks: Array<V20UpdateGroupCapacityForecastParams.ForecastedBlock>;
 
   /**
-   * Body param:
+   * Body param
    */
   group_id: string;
 
   /**
-   * Body param:
+   * Body param
    */
   type: 'CONSUMPTION' | 'GENERATION' | 'FALLBACK_CONSUMPTION' | 'FALLBACK_GENERATION' | 'OPTIMUM';
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Request-ID': string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Correlation-ID'?: string;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Count'?: number;
 
   /**
-   * Header param:
+   * Header param
    */
   'X-Segment-Index'?: number;
 }
