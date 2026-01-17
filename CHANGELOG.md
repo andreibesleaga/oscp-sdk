@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.11.5-beta (2026-01-17)
+
+Full Changelog: [v0.11.4-beta...v0.11.5-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.4-beta...v0.11.5-beta)
+
+### Chores
+
+* fix typo in descriptions ([a9eb260](https://github.com/andreibesleaga/oscp-sdk/commit/a9eb26074eb98893d7715459b69d725a302e4da6))
+* **internal:** codegen related update ([8bb4dc4](https://github.com/andreibesleaga/oscp-sdk/commit/8bb4dc4629887078e2b6f93f8da1aedb2e6fd7f7))
+* **internal:** codegen related update ([a5863f1](https://github.com/andreibesleaga/oscp-sdk/commit/a5863f17ab23404bc94fe920844846c9cde43974))
+* **internal:** codegen related update ([65710f2](https://github.com/andreibesleaga/oscp-sdk/commit/65710f2144ac0492692d099c84c8b74f865caeb1))
+* **internal:** codegen related update ([38f1395](https://github.com/andreibesleaga/oscp-sdk/commit/38f13954f36deaf5f62cae83743cc2929f636b41))
+* **internal:** update `actions/checkout` version ([2672f5c](https://github.com/andreibesleaga/oscp-sdk/commit/2672f5ced64932c7bd3723282b7c1a3c8854ee2b))
+* **internal:** upgrade babel, qs, js-yaml ([33e8b42](https://github.com/andreibesleaga/oscp-sdk/commit/33e8b428e6559e7d79f88a9f8ec9d4db2901a4cb))
+* **mcp:** add intent param to execute tool ([18dc170](https://github.com/andreibesleaga/oscp-sdk/commit/18dc170c7d9203b5a9e176e3b288ddcec08e2347))
+* **mcp:** pass intent param to execute handler ([666f5be](https://github.com/andreibesleaga/oscp-sdk/commit/666f5be0bb197b4160fa793d762c66b08793f3c9))
+* **mcp:** upgrade dependencies ([6ba36ea](https://github.com/andreibesleaga/oscp-sdk/commit/6ba36eaf614469ff2e7dcd98957ba7bb0e743fde))
+
 ## 0.11.4-beta (2026-01-09)
 
 Full Changelog: [v0.11.3-beta...v0.11.4-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.3-beta...v0.11.4-beta)
