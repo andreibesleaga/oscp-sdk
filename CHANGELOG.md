@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.8-beta (2026-01-26)
+
+Full Changelog: [v0.11.7-beta...v0.11.8-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.7-beta...v0.11.8-beta)
+
+### Chores
+
+* update SDK settings ([c75abe9](https://github.com/andreibesleaga/oscp-sdk/commit/c75abe925c8189259aeece1b107b0994e5048e1a))
+* update SDK settings ([1bcc06b](https://github.com/andreibesleaga/oscp-sdk/commit/1bcc06b29a29f365430d8f1c9c3218b006f5a21c))
+
 ## 0.11.7-beta (2026-01-26)
 
 Full Changelog: [v0.11.6-beta...v0.11.7-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.6-beta...v0.11.7-beta)
