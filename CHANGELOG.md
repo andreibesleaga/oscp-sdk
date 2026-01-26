@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.6-beta (2026-01-24)
+
+Full Changelog: [v0.11.5-beta...v0.11.6-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.5-beta...v0.11.6-beta)
+
+### Chores
+
+* **ci:** upgrade `actions/github-script` ([0e6a770](https://github.com/andreibesleaga/oscp-sdk/commit/0e6a7704b1cb8cc511ab1b32e8fba25aa7f28c23))
+* **internal:** update lock file ([73e772e](https://github.com/andreibesleaga/oscp-sdk/commit/73e772e7c38169085c9e88c372c4ef2adc9d5f87))
+
 ## 0.11.5-beta (2026-01-17)
 
 Full Changelog: [v0.11.4-beta...v0.11.5-beta](https://github.com/andreibesleaga/oscp-sdk/compare/v0.11.4-beta...v0.11.5-beta)
